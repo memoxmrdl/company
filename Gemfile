@@ -11,6 +11,7 @@ gem 'puma'
 #group :development, :test do
 #gem "sqlite3-ruby", "~> 1.3.0", :require => "sqlite3"
 #end
+gem 'newrelic_rpm'
 
 group :production do
   gem 'pg'
